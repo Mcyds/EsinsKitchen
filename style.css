@@ -180,6 +180,7 @@ html {
     display: block !important;
 }
 
+
 #tab-1-content .tab-about-inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
