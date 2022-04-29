@@ -1,8 +1,13 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #000;
+    color: #999;
 }
 
 img {
@@ -46,7 +51,7 @@ html {
 }
 
 .about_pic {
-    float: right !important;
+    width: 50%;
 }
 
 .btn {
@@ -123,7 +128,7 @@ html {
 }
 
 .tab-border {
-    border-bottom: red 4px solid;
+    border-bottom: rgb(255, 94, 0) 4px solid;
 }
 
 .tab-content {
@@ -131,6 +136,11 @@ html {
     background: black;
     color: white;
 }
+
+.tab-item {
+    color: white;
+}
+
 
 
 #tab-1-content,
@@ -226,4 +236,30 @@ html {
 .text-md {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.footer {
+    max-width: 75%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+.footer,
+.footer a {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li {
+    line-height: 1.9;
 }
