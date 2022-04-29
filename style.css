@@ -51,7 +51,7 @@ html {
 }
 
 .about_pic {
-    width: 50%;
+    width: 100%;
 }
 
 .btn {
@@ -73,7 +73,7 @@ html {
 
 .btn-danger {
     color: white;
-    background-color: #EB5757;
+    background-color: rgb(255, 94, 0);
     border: none;
     border-radius: .3em;
     font-weight: bold;
@@ -184,9 +184,11 @@ html {
 #tab-1-content .tab-about-inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 10rem;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding-left: 15rem;
 }
 
 #tab-2-content .tab-2-content-bottom1 {
