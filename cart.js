@@ -22,6 +22,8 @@ function ready() {
         var button = addToCartButtons[i];
         button.addEventListener('click', addToCartClicked);
     }
+
+    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked);
 }
 
 function purchaseClicked() {
@@ -62,7 +64,7 @@ function addItemToCart(title, price) {
     var cartItems = document.getElementsByClassName('cart-items')[0];
     var cartItemsNames = cartItems.getElementsByClassName('cart-item-title');
     for (var i = 0; i < cartItemsNames.length; i++) {
-        if (cartItemNames[i].innerText == title) {
+        if (cartItemsNames[i].innerText == title) {
             alert('This item is alreay added to the cart');
             return;
         }
