@@ -260,6 +260,11 @@ html {
     transform: scale(2);
 }
 
+.cart-item-image {
+    width: 100px;
+    border-radius: 10px;
+}
+
 .text-xl {
     font-size: 70%;
     margin-bottom: 1rem;
@@ -356,6 +361,7 @@ html {
     text-align: center;
     font-size: 1.2em;
     margin-right: 25px;
+    margin-top: 2.5rem;
 }
 
 
