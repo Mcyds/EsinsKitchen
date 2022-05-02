@@ -7,6 +7,7 @@ function removeBorder() {
     tabItems.forEach(item => item.classList.remove('tab-border'));
 }
 
+
 function removeShow() {
     tabContentItems.forEach(item => item.classList.remove('show'));
 }

@@ -165,6 +165,10 @@ html {
     border-bottom: rgb(255, 94, 0) 4px solid;
 }
 
+.tab-color {
+    color: rgb(255, 94, 0);
+}
+
 .tab-content {
     padding: 3rem 0;
     background: black;
@@ -219,10 +223,10 @@ html {
 }
 
 .table {
-    width: 100%;
     margin-top: 2rem;
     border-collapse: collapse;
-    border-spacing: 0;
+    float: left;
+    width: 50%;
 }
 
 .table thead th {
@@ -257,18 +261,26 @@ html {
     font-weight: bold;
 }
 
+
+
 .shop-item-image {
     transition: transform ease-in-out 0.3s;
     border: 2px solid rgb(255, 94, 0);
 }
 
+
 .shop-item-image:hover {
     transform: scale(2);
+}
+
+.shop-item-button {
+    padding-right: 2rem;
 }
 
 .cart-item-image {
     width: 100px;
     border-radius: 10px;
+    border: 2px solid rgb(255, 94, 0);
 }
 
 .text-xl {
@@ -335,6 +347,11 @@ html {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+    float: right;
+    background-color: rgba(100, 100, 100, 0.5);
+    padding: 1rem;
+    border: rgb(255, 94, 0, 0.5) 3px solid;
+    width: 30rem;
 }
 
 .section-header {
@@ -367,7 +384,8 @@ html {
     text-align: center;
     font-size: 1.2em;
     margin-right: 25px;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 
