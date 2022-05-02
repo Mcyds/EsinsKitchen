@@ -24,7 +24,6 @@ function selectItemButton(e) {
     removeShow();
     const tabContentItem = document.querySelector(`#${this.id}-content`);
     tabContentItem.classList.add('show');
-    
 }
 
 

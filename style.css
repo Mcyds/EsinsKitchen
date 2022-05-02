@@ -182,6 +182,9 @@ html {
     display: block !important;
 }
 
+.tab-order {
+    
+}
 
 #tab-1-content .tab-about-inner {
     display: grid;
