@@ -52,6 +52,7 @@ html {
 
 .about_pic {
     width: 100%;
+    border: 3px solid rgb(255, 94, 0, 0.8);
 }
 
 .btn {
