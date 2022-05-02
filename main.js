@@ -1,5 +1,7 @@
 const tabItems = document.querySelectorAll('.tab-item');
 const tabContentItems = document.querySelectorAll('.tab-content');
+const shopNowItems = document.querySelectorAll('.shop-now');
+const shopNowBorder = document.querySelectorAll('#tab-3');
 
 function removeBorder() {
     tabItems.forEach(item => item.classList.remove('tab-border'));
@@ -17,7 +19,17 @@ function selectItem(e) {
     tabContentItem.classList.add('show');
 }
 
+function selectItemButton(e) {
+    removeBorder();
+    removeShow();
+    const tabContentItem = document.querySelector(`#${this.id}-content`);
+    tabContentItem.classList.add('show');
+    
+}
+
+
 tabItems.forEach(item => item.addEventListener('click', selectItem));
+shopNowItems.forEach(item => item.addEventListener('click', selectItemButton));
 
 
 

@@ -249,6 +249,7 @@ html {
 .shop-item-title,
 .shop-item-price {
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .shop-item-image {

@@ -18,11 +18,11 @@
     <header class="title_background">
         <div class="title_top">
             <img class="logo" src="https://www.freeiconspng.com/thumbs/chef-hat-png/chef-hat-png-10.png" alt="logo">
-            <a href="#cart" class="btn btn_cart btn-rounded material-icons">shopping_cart</a>
+            <a id="tab-3" href="#cart" class="btn btn_cart btn-rounded material-icons shop-now">shopping_cart</a>
         </div>
         <div id="about">
             <h1 class="title_text title_content"><i>-ESIN'S KITCHEN-</i></h1>
-            <a href="#tab-3-content" class="btn btn_title">
+            <a id="tab-3" href="#tab-3-content" class="btn btn_title shop-now">
                 Shop Now! <i class="fas fa-chevron-right btn-icon"></i>
             </a>
         </div>
@@ -188,20 +188,22 @@
                 <br>
                 <br>
                 <br>
-                <h2 id="cart" class="section-header">CART</h2>
-                <br />
-                <div class="cart-row">
-                    <span class="cart-item cart-header cart-column">ITEM</span>
-                    <span class="cart-price cart-header cart-column">PRICE</span>
-                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                <div class="cart-container">
+                    <h2 id="cart" class="section-header">CART</h2>
+                    <br />
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                    <div class="cart-items">
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">0$</span>
+                    </div>
+                    <button type="button" class="btn-cart btn-primary btn-purchase">PURCHASE</button>
                 </div>
-                <div class="cart-items">
-                </div>
-                <div class="cart-total">
-                    <strong class="cart-total-title">Total</strong>
-                    <span class="cart-total-price">0$</span>
-                </div>
-                <button type="button" class="btn-cart btn-primary btn-purchase">PURCHASE</button>
             </div>
         </div>
     </section>
