@@ -18,6 +18,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* Title Page */
 
 .title_text {
@@ -126,6 +127,11 @@ html {
     width: 10rem;
 }
 
+
+.img-gallery {
+    border: 3px solid rgb(255, 94, 0, 0.9);
+}
+
 .tabs {
     background: #141414;
     padding-top: 1rem;
@@ -180,10 +186,6 @@ html {
 
 .show {
     display: block !important;
-}
-
-.tab-order {
-    
 }
 
 #tab-1-content .tab-about-inner {
