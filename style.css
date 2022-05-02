@@ -96,6 +96,7 @@ html {
     width: 15%;
     float: right;
     margin-right: 0;
+    background-color: transparent;
 }
 
 .btn_cart {
@@ -243,6 +244,20 @@ html {
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
+}
+
+.shop-item-title,
+.shop-item-price {
+    font-size: 1.2rem;
+}
+
+.shop-item-image {
+    transition: transform ease-in-out 0.3s;
+    border: 2px solid rgb(255, 94, 0);
+}
+
+.shop-item-image:hover {
+    transform: scale(2);
 }
 
 .text-xl {
