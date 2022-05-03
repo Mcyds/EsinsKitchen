@@ -53,11 +53,43 @@ html {
     z-index: 0;
 }
 
+.faq-content {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
 
+}
 
+.faq-picture {
+    width: 60%;
+    margin-left: 5rem;
+    border: 3px solid rgb(255, 94, 0, 0.8);
+}
 
-.title_top {
-    z-index: 1;
+.mail-button {
+    text-decoration: none;
+    color: white;
+
+}
+
+.questions-text {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.border-faq {
+    width: 100%;
+    background-color: rgba(255, 94, 0, 0.8);
+    z-index: 10;
+    height: 0.5rem;
+
 }
 
 .logo {
