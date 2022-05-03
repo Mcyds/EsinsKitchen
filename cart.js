@@ -65,9 +65,8 @@ function addItemToCart(title, price, imageSrc) {
     var cartItems = document.getElementsByClassName('cart-items')[0];
     var cartItemsNames = cartItems.getElementsByClassName('cart-item-title');
     for (var i = 0; i < cartItemsNames.length; i++) {
-        if (cartItemsNames[i].innerText == title) {
-            alert('This item is alreay added to the cart');
-            return;
+        if (cartItemsNames[i].innerText == title) { //TODO: If the item aldready exists, increase the count of item.
+            quantityInputs += 1;
         }
     }
 
