@@ -53,6 +53,39 @@ html {
     z-index: 0;
 }
 
+.title_background_contact {
+    width: 100%;
+    height: 55vh;
+    background: url(https://images7.alphacoders.com/887/thumb-1920-887725.jpg) no-repeat center center/cover;
+    position: relative;
+    color: white;
+    box-shadow: inset 10px 10px 150px #000000,
+        inset -1px -10px 150px #000000;
+    z-index: 0;
+}
+
+
+.title_background_social {
+    width: 100%;
+    height: 55vh;
+    background: url(https://cdn.wallpapersafari.com/34/35/91UqI8.jpg) no-repeat center center/cover;
+    position: relative;
+    color: white;
+    box-shadow: inset 10px 10px 150px #000000,
+        inset -1px -10px 150px #000000;
+    z-index: 0;
+}
+
+
+
+.border-around {
+    background-color: #222;
+    width: 30rem;
+    height: 10rem;
+    padding: 2rem;
+    border: 3px solid rgba(255, 94, 0, 0.8);
+}
+
 .faq-content {
     margin-left: 2rem;
     margin-top: 5rem;
@@ -101,6 +134,11 @@ html {
 .about_pic {
     width: 100%;
     border: 3px solid rgb(255, 94, 0, 0.8);
+}
+
+.remove-decoration {
+    text-decoration: none;
+    color: rgb(255, 94, 0);
 }
 
 .btn {
