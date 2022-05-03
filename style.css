@@ -86,12 +86,41 @@ html {
     border: 3px solid rgba(255, 94, 0, 0.8);
 }
 
+.border-around-social {
+    background-color: #222;
+    width: 50rem;
+    height: 20rem;
+    padding: 2rem;
+    border: 3px solid rgba(255, 94, 0, 0.8);
+}
+
 .faq-content {
     margin-left: 2rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+.insta-pic {
+    width: 3rem;
+}
+
+
+
+.social-content {
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     align-items: center;
     justify-content: center;
