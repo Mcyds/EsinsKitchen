@@ -65,8 +65,8 @@ function addItemToCart(title, price, imageSrc) {
     var cartItems = document.getElementsByClassName('cart-items')[0];
     var cartItemsNames = cartItems.getElementsByClassName('cart-item-title');
     for (var i = 0; i < cartItemsNames.length; i++) {
-        if (cartItemsNames[i].innerText == title) { 
-            quantityInputs += 1;
+        if (cartItemsNames[i].innerText == title) {
+            quantityElement.value += 1;
         }
     }
 

@@ -410,6 +410,10 @@ html {
     background: #222;
 }
 
+.products-left-align:nth-child(even) {
+    background-color: #222;
+}
+
 .table-products thead th {
     text-transform: uppercase;
     padding: 0.8rem;
