@@ -34,7 +34,7 @@ html {
 .title_background {
     width: 100%;
     height: 55vh;
-    background: url(https://jooinn.com/images/italian-food-background-1.jpg) no-repeat center center/cover;
+    background: url(images/italian-food-background-1.jpg) no-repeat center center/cover;
     position: relative;
     color: white;
     box-shadow: inset 10px 10px 150px #000000,
@@ -45,7 +45,7 @@ html {
 .title_background_faq {
     width: 100%;
     height: 55vh;
-    background: url(https://files.wallpaperpass.com/2019/10/food%20wallpaper%20131%20-%201920x1080.jpg) no-repeat center center/cover;
+    background: url(images/food\ wallpaper\ 131\ -\ 1920x1080.jpg) no-repeat center center/cover;
     position: relative;
     color: white;
     box-shadow: inset 10px 10px 150px #000000,
@@ -56,7 +56,7 @@ html {
 .title_background_contact {
     width: 100%;
     height: 55vh;
-    background: url(https://images7.alphacoders.com/887/thumb-1920-887725.jpg) no-repeat center center/cover;
+    background: url(images/thumb-1920-887725.jpg) no-repeat center center/cover;
     position: relative;
     color: white;
     box-shadow: inset 10px 10px 150px #000000,
@@ -68,7 +68,7 @@ html {
 .title_background_social {
     width: 100%;
     height: 55vh;
-    background: url(https://cdn.wallpapersafari.com/34/35/91UqI8.jpg) no-repeat center center/cover;
+    background: url(images/91UqI8.jpg) no-repeat center center/cover;
     position: relative;
     color: white;
     box-shadow: inset 10px 10px 150px #000000,
@@ -345,7 +345,34 @@ html {
     border: #222 2px solid;
 }
 
-.table thead th {
+.table-products {
+    margin-top: 2rem;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2.2rem;
+    border: #222 2px solid;
+}
+
+.table-products thead th {
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+.table-products tbody tr td {
+    color: #999;
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+}
+
+.table-products tbody tr td:first-child {
+    text-align: left;
+}
+
+.table-products tbody tr:nth-child(odd) {
+    background: #222;
+}
+
+.table-products thead th {
     text-transform: uppercase;
     padding: 0.8rem;
 }
@@ -380,9 +407,14 @@ html {
 
 
 .shop-item-image {
+    transition: transform ease-in-out 0.3s;
     border: 2px solid rgb(255, 94, 0);
 }
 
+
+.shop-item-image:hover {
+    transform: scale(2.5);
+}
 
 .shop-item-button {
     padding-right: 2rem;
