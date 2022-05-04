@@ -347,7 +347,6 @@ html {
     grid-gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-color: #222;
     padding: 2rem;
     padding-left: 1;
 
@@ -360,8 +359,9 @@ html {
     margin-bottom: 2rem;
     grid-gap: 2rem;
     padding: 2rem;
-    padding-left: 0;
-    margin-left: 4rem;
+    padding-left: 4rem;
+    margin-left: 0rem;
+    background-color: #222;
 }
 
 .products-image {
